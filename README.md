@@ -5,8 +5,6 @@ Mobile_Detect is a lightweight PHP class for detecting mobile devices (including
 
 ## Usage
 
-In template.phtml:
-
 ```
 // Detect
 <?php
