@@ -7,6 +7,8 @@ Mobile_Detect is a lightweight PHP class for detecting mobile devices (including
 
 In template.phtml:
 
+```
+// Detect
 <?php
 $helper = Mage::helper('wpositive_mobiledetect/data');
 
@@ -14,5 +16,6 @@ if($helper->isMobile()) {
   echo "is_mobile";
 }
 ?>
+```
 
 
